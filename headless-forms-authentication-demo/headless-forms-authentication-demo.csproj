@@ -4,6 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>headless_forms_authentication_demo</RootNamespace>
+    <UserSecretsId>cf74823b-2bf9-46b9-b224-54a64a6445df</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
