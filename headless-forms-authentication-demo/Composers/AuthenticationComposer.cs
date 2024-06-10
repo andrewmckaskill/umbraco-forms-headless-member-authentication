@@ -7,6 +7,8 @@ public class AuthenticationComposer : IComposer
 {
     public void Compose(IUmbracoBuilder builder)
     {
-        builder.AddAuth0MemberAuthentication();
+        builder.AddAuth0MemberAuthentication()
+            .AddAuth0MemberJWTBearerAuthentication();
+
     }
 }

@@ -10,7 +10,7 @@ namespace headless_forms_authentication_demo.Authentication;
 
 public static class Auth0AuthenticationExtensions
 {
-    private const string Scheme = "Auth0";
+    public const string Scheme = "Auth0";
 
     public static IUmbracoBuilder AddAuth0MemberAuthentication(this IUmbracoBuilder builder)
     {
@@ -37,7 +37,7 @@ public static class Auth0AuthenticationExtensions
 
         return builder;
     }
-
+    
     private class Auth0MemberExternalLoginProviderOptions : IConfigureNamedOptions<MemberExternalLoginProviderOptions>
     {
         public void Configure(string? name, MemberExternalLoginProviderOptions options)
